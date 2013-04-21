@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B477CE23171DF76E00DA54F0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B477CE22171DF76E00DA54F0 /* main.c */; };
+		B477CE23171DF76E00DA54F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B477CE22171DF76E00DA54F0 /* main.m */; };
 		B477CE25171DF76E00DA54F0 /* PA1.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B477CE24171DF76E00DA54F0 /* PA1.1 */; };
+		B477CE2C171DFFF100DA54F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B477CE2B171DFFF100DA54F0 /* Foundation.framework */; };
+		B477CE2F171E134C00DA54F0 /* Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = B477CE2E171E134C00DA54F0 /* Demo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +28,11 @@
 
 /* Begin PBXFileReference section */
 		B477CE1F171DF76E00DA54F0 /* PA1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PA1; sourceTree = BUILT_PRODUCTS_DIR; };
-		B477CE22171DF76E00DA54F0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		B477CE22171DF76E00DA54F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B477CE24171DF76E00DA54F0 /* PA1.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PA1.1; sourceTree = "<group>"; };
+		B477CE2B171DFFF100DA54F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B477CE2D171E134C00DA54F0 /* Demo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo.h; sourceTree = "<group>"; };
+		B477CE2E171E134C00DA54F0 /* Demo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B477CE2C171DFFF100DA54F0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +50,9 @@
 		B477CE16171DF76E00DA54F0 = {
 			isa = PBXGroup;
 			children = (
+				B477CE2D171E134C00DA54F0 /* Demo.h */,
+				B477CE2E171E134C00DA54F0 /* Demo.m */,
+				B477CE2B171DFFF100DA54F0 /* Foundation.framework */,
 				B477CE21171DF76E00DA54F0 /* PA1 */,
 				B477CE20171DF76E00DA54F0 /* Products */,
 			);
@@ -60,7 +69,7 @@
 		B477CE21171DF76E00DA54F0 /* PA1 */ = {
 			isa = PBXGroup;
 			children = (
-				B477CE22171DF76E00DA54F0 /* main.c */,
+				B477CE22171DF76E00DA54F0 /* main.m */,
 				B477CE24171DF76E00DA54F0 /* PA1.1 */,
 			);
 			path = PA1;
@@ -117,7 +126,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B477CE23171DF76E00DA54F0 /* main.c in Sources */,
+				B477CE23171DF76E00DA54F0 /* main.m in Sources */,
+				B477CE2F171E134C00DA54F0 /* Demo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
